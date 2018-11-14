@@ -25,10 +25,13 @@ public class Pilas {
     }
     //Agregado la clase del 15 de octubre
     private boolean estaVacia(){
-        if(pila==null){
+        if(tope==0){
+            JOptionPane.showMessageDialog(null, "Esta vacia"); 
             return true;
+             
         }
         else{
+            JOptionPane.showMessageDialog(null, "No esta vacia"); 
         return false;
         }
     }
@@ -57,8 +60,9 @@ public class Pilas {
             opcion = Integer.parseInt(JOptionPane.showInputDialog("Menu:\n"
                     + "1.- Insertar elemento\n"
                     + "2.- Quitar elemento\n"
-                    + "3.- Imprimir pila\n"
-                    + "4.- Salir\n"));
+                    + "3.- Imprimir pila\n "
+                    + "4.- Verificar si esta vacia"
+                    + "5.- Salir\n"));
             switch (opcion) {
                 case 1:
                     p.agregarElemento(Integer.parseInt(JOptionPane.showInputDialog("Ingresa elemento")));
@@ -67,7 +71,9 @@ public class Pilas {
                     break;
                 case 3: p.imprimirPila();
                     break;
-                case 4:
+                case 4: p.estaVacia();
+                    break;
+                case 5:
                     System.exit(0);
                     break;
                 default:
