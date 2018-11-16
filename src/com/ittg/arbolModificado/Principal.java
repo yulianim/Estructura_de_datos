@@ -6,21 +6,15 @@ public class Principal {
         ArbolBinario arbol;
         Nodo a1, a2, a;
         PilaVector pila = new PilaVector();
-        a1 = ArbolBinario.nuevoArbol(null, "Maria", null);
-        a2 = ArbolBinario.nuevoArbol(null, "Rodrigo", null);
-        a = ArbolBinario.nuevoArbol(a1, "Esperanza", a2);
+        a1 = ArbolBinario.nuevoArbol(null, "B", null);
+        a2 = ArbolBinario.nuevoArbol(null, "C", null);
+        a = ArbolBinario.nuevoArbol(a1, "A", a2);
         pila.insertar(a);
-        
-        a1 = ArbolBinario.nuevoArbol(null, "Anyora", null);
-        a2 = ArbolBinario.nuevoArbol(null, "Abel", null);
-        a = ArbolBinario.nuevoArbol(a1, "M Jesus", a2);
-        pila.insertar(a);
-        //a2=(Nodo)pila.quitar();
-        //a1=(Nodo)pila.quitar();
-        a = ArbolBinario.nuevoArbol(a1, "Esperanza", a2);
+        //Se creó arbol con 1 nivel teniendo como raiz=A
+        //subarbolizquierdo=B y subarbolDerecho=C
         arbol = new ArbolBinario(a);
+        System.out.println("Recorrido preorden\n");
         
-        //Realizar el reccorido preorden 
        
     }
 

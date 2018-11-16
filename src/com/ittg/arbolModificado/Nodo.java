@@ -43,6 +43,6 @@ public class Nodo {
     }
 
     void imprimir() {
-        System.out.print(dato + " ");
+        System.out.println(dato + " ");
     }
 }

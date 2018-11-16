@@ -5,7 +5,6 @@
  */
 package com.ittg.arbolModificado;
 
-import com.ittg.arboles.*;
 import java.util.Vector;
 
 /**
