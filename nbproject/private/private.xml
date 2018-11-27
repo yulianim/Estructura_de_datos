@@ -3,10 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/arbolModificado/ArbolBinario.java</file>
-            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/arbolModificado/PilaVector.java</file>
-            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/arbolModificado/Principal.java</file>
-            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/arbolModificado/Nodo.java</file>
+            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/ordenamiento/Burbuja.java</file>
+            <file>file:/C:/Users/DellLatitude1/Documents/NetBeansProjectsu/EDCurso/src/com/ittg/ordenamiento/Ordenamiento.java</file>
         </group>
     </open-files>
 </project-private>
